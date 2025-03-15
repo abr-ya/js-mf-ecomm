@@ -1,3 +1,3 @@
-import 'productsApp/ProductsIndex';
+import 'productsApp/ProductsIndex'; // remoteKey / exposesKey
 
 console.log('Container!');

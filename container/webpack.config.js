@@ -10,7 +10,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        productsApp: 'productsApp@http://localhost:8081/remoteEntry.js',
+        productsApp: 'productsName@http://localhost:8081/remoteEntry.js',
       },
     }),
     new HtmlWebpackPlugin({
